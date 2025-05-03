@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Monitoring System Dashboard
 
-## Getting Started
+A responsive and modular monitoring dashboard built with **Next.js**, **Tailwind CSS**, and **TypeScript**. This project visualizes key system metrics such as CPU usage, memory usage, and service status in a clean and modern UI.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 📊 Dynamic metric panels for CPU, Memory, and Services
+- 🎯 Clean, responsive layout with Tailwind CSS
+- 🔧 Built-in structure for scalability and modularity
+- ✅ Type-safe codebase with TypeScript
+- 🧱 Based on Next.js App Router and server components
+
+## 🖥️ Technologies Used
+
+- [Next.js 13+ (App Router)](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Lucide Icons](https://lucide.dev/) for SVG-based system icons
+
+## 📂 Folder Structure (Excerpt)
+
+```
+/app
+  └── page.tsx           # Main dashboard page
+  └── globals.css        # Tailwind base styles
+/public
+/...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clone the repository
+git clone https://github.com/sujalkyal2704/monitoring-dashboard.git
+cd monitoring-dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install
 
-## Learn More
+# Start the development server
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Navigate to `http://localhost:3000` to view the dashboard.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Development Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Each monitoring panel (CPU, Memory, Services) is modular and styled with utility-first Tailwind classes.
+- Icons are powered by `lucide-react`.
+- The layout uses responsive grid classes (`grid-cols-1 md:grid-cols-3`) for adaptability.
 
-## Deploy on Vercel
+## 📈 Example Dashboard Panels
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **CPU Usage**: Visual icon and mock data for CPU load
+- **Memory Usage**: Displays memory metrics with stylized cards
+- **Services**: Represents status or count of monitored services
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Made with ❤️ using Next.js and Tailwind CSS
