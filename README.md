@@ -32,7 +32,7 @@ A responsive and modular monitoring dashboard built with **Next.js**, **Tailwind
 
 ```bash
 # Clone the repository
-git clone https://github.com/sujalkyal2704/monitoring-dashboard.git
+git clone https://github.com/sujalkyal/monitoring-dashboard.git
 cd monitoring-dashboard
 
 # Install dependencies
